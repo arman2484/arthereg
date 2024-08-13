@@ -1,0 +1,191 @@
+{
+  "menu": [
+    {
+      "name": "Dashboard",
+      "url": "app/ecommerce/dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard"
+    },
+    {
+      "menuHeader": "POS"
+    },
+    {
+      "name": "POS",
+      "icon": "menu-icon tf-icons bx bx-cart",
+      "url": "app/academy/course",
+      "slug": "app-academy-course"
+    },
+    {
+      "menuHeader": "User"
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "url": "app/user/list",
+      "slug": "app-user-list"
+    },
+    {
+      "menuHeader": "Stores & Products"
+    },
+    {
+      "name": "Products",
+      "icon": "menu-icon tf-icons bx bx-box",
+      "slug": "app-ecommerce-product",
+      "submenu": [
+        {
+          "url": "app/ecommerce/product/add",
+          "name": "Add Product",
+          "slug": "app-ecommerce-product-add"
+        },
+        {
+          "url": "app/ecommerce/product/list",
+          "name": "Product List",
+          "slug": "app-ecommerce-product-list"
+        }
+      ]
+    },
+    {
+      "name": "Stores",
+      "icon": "menu-icon tf-icons bx bx-store",
+      "slug": "app-ecommerce-store",
+      "submenu": [
+        {
+          "url": "app/ecommerce/store/add",
+          "name": "Add Store",
+          "slug": "app-ecommerce-store-add"
+        },
+        {
+          "url": "app/ecommerce/store/list",
+          "name": "Store List",
+          "slug": "app-ecommerce-store-list"
+        },
+        {
+          "url": "app/ecommerce/store/request",
+          "name": "Store Request",
+          "slug": "app-ecommerce-store-request"
+        }
+      ]
+    },
+    {
+      "url": "app/ecommerce/product/category",
+      "icon": "menu-icon tf-icons bx bx-category",
+      "name": "Category List",
+      "slug": "app-ecommerce-category"
+    },
+    {
+      "url": "app/ecommerce/product/subcategory",
+      "icon": "menu-icon tf-icons bx bx-category-alt",
+      "name": "Sub Category List",
+      "slug": "app-ecommerce-subcategory"
+    },
+    {
+      "url": "app/ecommerce/manage/reviews",
+      "icon": "menu-icon tf-icons bx bx-star",
+      "name": "Manage Reviews",
+      "slug": "app-ecommerce-reviews"
+    },
+    {
+      "name": "Slider/Banner",
+      "icon": "menu-icon tf-icons bx bx-slider",
+      "url": "banner-list",
+      "slug": "banner-list"
+    },
+    {
+      "menuHeader": "Financial"
+    },
+    {
+      "url": "app/ecommerce/order/list",
+      "icon": "menu-icon tf-icons bx bx-cart-alt",
+      "name": "Orders",
+      "slug": "app-ecommerce-order-list"
+    },
+    {
+      "url": "app/invoice/list",
+      "icon": "menu-icon tf-icons bx bx-food-menu",
+      "name": "Invoice",
+      "slug": "app-invoice-list"
+    },
+    {
+      "url": "app/ecommerce/coupon",
+      "icon": "menu-icon tf-icons bx bxs-coupon",
+      "name": "Coupons",
+      "slug": "app-ecommerce-coupon"
+    },
+    {
+      "menuHeader": "Content"
+    },
+    {
+      "url": "app/ecommerce/country/list",
+      "icon": "menu-icon tf-icons bx bx-globe",
+      "name": "Location",
+      "slug": "app-ecommerce-country-list"
+    },
+    {
+      "menuHeader": "Arrangement"
+    },
+    {
+      "url": "app/ecommerce/media/manager",
+      "icon": "menu-icon tf-icons fa-solid fa-images",
+      "name": "Media Manager",
+      "slug": "app-ecommerce-media-manager"
+    },
+    {
+      "name": "Settings",
+      "icon": "menu-icon tf-icons bx bxs-cog",
+      "slug": "app-ecommerce-setting",
+      "submenu": [
+        {
+          "url": "app/ecommerce/setting/mobile",
+          "name": "Mobile Settings",
+          "slug": "app-ecommerce-setting-mobile"
+        },
+        {
+          "url": "app/ecommerce/setting/stripe",
+          "name": "Online Payment Gateway",
+          "slug": "app-ecommerce-payment-setting"
+        },
+        {
+          "url": "app/ecommerce/payment/cod",
+          "name": "Offline Payment Gateway",
+          "slug": "app-ecommerce-payment-cod"
+        },
+        {
+          "url": "app/ecommerce/currencies",
+          "name": "Currencies List",
+          "slug": "app-ecommerce-currencies"
+        },
+        {
+          "url": "app/setting/custom/page",
+          "name": "Custom page URL",
+          "slug": "app-setting-page-url"
+        }
+      ]
+    },
+    {
+      "name": "Notification",
+      "icon": "menu-icon tf-icons bx bxs-bell",
+      "slug": "app-notification",
+      "submenu": [
+        {
+          "url": "app/ecommerce/notification/list",
+          "name": "Notification list",
+          "slug": "app-notification-list"
+        },
+        {
+          "url": "app/ecommerce/notification",
+          "name": "Add Notification",
+          "slug": "app-ecommerce-notification"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Support"
+    },
+    {
+      "url": "app/ecommerce/contactus",
+      "icon": "menu-icon tf-icons bx bxs-contact",
+      "name": "Support",
+      "slug": "app-ecommerce-contactus"
+    }
+  ]
+}
